@@ -20,11 +20,18 @@
 
     <script>
         var map = new BMap.Map("container");
-        var point = new BMap.Point('{{ $data[0]->check_lng}}','{{$data[0]->check_lat}}');
-        map.centerAndZoom(point,14);
+
+        @foreach($data as $v)
+        @if($v->check_lng && $v->check_lat)
+
+            var point = new BMap.Point('{{$v->check_lng}}','{{$v->check_lat}}');
+            @continue
+        @endif
+    @endforeach
+map.centerAndZoom(point,14);
         var marker = new BMap.Marker(point);
         var mapPoints = [
-                @foreach($data as $v)
+            @foreach($data as $v)
             {lng:'{{$v->check_lng}}',lat:'{{$v->check_lat}}',title:"单号:{{$v->repair_bill}}",time:'时间:{{date('Y-m-d h:m:s',$v->checkdate)}}'},
             @endforeach
         ];
