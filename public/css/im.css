@@ -1,0 +1,123 @@
+.result_content ul li span {
+    font-size: 15px;
+    padding: 6px 12px;
+}
+
+.page_list ul li {
+    float: left;
+    border: none;
+    height: 30px;
+    line-height: 30px;
+    border-right: 1px solid #ddd;
+    color: #428bca;
+}
+
+.result_popwrap {
+    padding: 10px 20px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.result_popwrap i {
+    margin-right: 5px
+}
+
+table.list_poptab {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 13px;
+    width: 100%
+}
+
+table.list_poptab th {
+    line-height: 30px
+}
+table.list_poptab tr {
+    line-height: 20px
+}
+
+table.list_poptab tr:nth-child(odd) {
+    background: #f9f9f9
+}
+
+table.list_poptab tr:hover {
+    background: #f1f1f1
+}
+
+table.list_poptab tr.even-tr {
+    background: #e9fff2
+}
+
+table.list_poptab tr input {
+    margin-right: 0
+}
+
+table.list_poptab tr th {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    background: #eee
+}
+
+table.list_poptab tr td, table.list_poptab tr th {
+    padding: 0px;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #e1e1e1
+}
+
+table.list_poptab tr td.tc, table.list_poptab tr th.tc {
+    text-align: left
+}
+
+table.list_poptab tr td a {
+    margin-right: 10px;
+    float: left
+}
+
+table.list_poptab tr td input[type='text'] {
+    width: 20px;
+    text-align: center;
+    display: inline
+}
+
+table.list_poptab tr td input[type='text'].md {
+    width: 200px;
+    text-align: left;
+    display: inline
+}
+
+table.list_poptab tr td input[type='text'].lg {
+    width: 580px;
+    text-align: left;
+    display: inline
+}
+
+.result_content .short_wrap a {
+    margin-right: 20px
+}
+
+.result_content ul li {
+    line-height: 20px;
+    border-bottom: 1px dashed #eaeaea
+}
+
+.result_content ul li label {
+    color: #909090;
+    display: inline-block;
+    width: 150px;
+    padding-right: 10px;
+    text-align: right
+}
+
+.result_popcontent ul li span {
+    font-size: 15px
+}
+
+.result_popcontent ul li span a {
+    display: inline-block
+}
+
+.result_popcontent ul li span a img {
+    vertical-align: middle
+}
+
+
